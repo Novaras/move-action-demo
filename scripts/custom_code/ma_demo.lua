@@ -8,6 +8,7 @@ flyaround_proto = {
 	wait_start = -1
 };
 
+-- we can pass raw positions, volumes, or full move-action objects
 flyaround_proto.checkpoints = {
 	{0, 0, 0},
 	{0, 0, 2000}, -- +z (toward 180)
